@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <title>MONSTER HUNT</title>
+    <link rel="stylesheet" href="./styles/app.css" />
+    <script src="./scripts/vendor.js" defer></script>
+    <script src="./scripts/app.js" defer></script>
+  </head>
+
+  <body>
+    <section id="health-levels">
+      <h1>MONSTER HEALTH</h1>
+      <progress id="monster-health" max="100" value="100">100%</progress>
+      <!-- <h3 id="currentMonsterHealth">100</h3> -->
+      <h2>SWORDSMAN <span id="bonus-life">1</span></h2>
+      <!-- <h3 id="currentPlayerHealth">100</h3> -->
+      <progress id="player-health" max="100" value="100">100%</progress>
+    </section>
+    <section id="controls">
+      <button id="attack-btn">ATTACK</button>
+      <button id="skill-btn">SKILL</button>
+      <button id="heal-btn">HEAL</button>
+      <button id="log-btn">SHOW LOG</button>
+    </section>
+  </body>
+</html>
